@@ -1,0 +1,10 @@
+LICENCE.txt
+README.md
+setup.py
+topsis.py
+topsis_jashanpreetsingh_102317065.egg-info/PKG-INFO
+topsis_jashanpreetsingh_102317065.egg-info/SOURCES.txt
+topsis_jashanpreetsingh_102317065.egg-info/dependency_links.txt
+topsis_jashanpreetsingh_102317065.egg-info/entry_points.txt
+topsis_jashanpreetsingh_102317065.egg-info/requires.txt
+topsis_jashanpreetsingh_102317065.egg-info/top_level.txt

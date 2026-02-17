@@ -1,0 +1,33 @@
+<!doctype html>
+<html>
+  <head>
+    <title>TOPSIS Web Service</title>
+    <link rel="stylesheet" href="/style.css"/>
+  </head>
+  <body>
+    <div class="container">
+      <div class="card">
+        <h2>TOPSIS Calculator</h2>
+        <p class="subtitle">Upload your dataset and calculate rankings instantly</p>
+        <div id="error-message" class="error-box"></div>
+        <form id="topsis-form" action="/calculate" method="POST" enctype="multipart/form-data">
+            
+            <label>Upload CSV File</label>
+            <input type="file" name="file" required />
+
+            <label>Weights (comma separated)</label>
+            <input type="text" name="weights" placeholder="1,1,1,1" required />
+
+            <label>Impacts (comma separated)</label>
+            <input type="text" name="impacts" placeholder="+,+,-,+" required />
+
+            <label>Email Address</label>
+            <input type="email" name="email" placeholder="example@gmail.com" required />
+
+            <button type="submit">Calculate & Send Email</button>
+            </form>
+      </div>
+    </div>
+    <script src="/script.js"></script>
+  </body>
+</html>
